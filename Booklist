@@ -1,0 +1,9 @@
+--create a booklist table
+
+CREATE TABLE booklist (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO booklist VALUES (1, "Twilight", 5);
+INSERT INTO booklist VALUES (2, "Notebook", 4);
+INSERT INTO booklist VALUES (3, "Hunger Games", 3); 
+INSERT INTO booklist VALUES (4, "50 Shades of Grey", 2)
+;
